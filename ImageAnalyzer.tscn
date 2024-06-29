@@ -1,0 +1,58 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://ImageAnalyzer.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://charlotta.png" type="Texture" id=3]
+[ext_resource path="res://images/mr prez3.png" type="Texture" id=4]
+[ext_resource path="res://ronan.png" type="Texture" id=5]
+[ext_resource path="res://samson.png" type="Texture" id=6]
+[ext_resource path="res://charlotta new.png" type="Texture" id=7]
+[ext_resource path="res://images/makoto.png" type="Texture" id=10]
+[ext_resource path="res://images/dudleycrop.png" type="Texture" id=11]
+[ext_resource path="res://images/ryucrop.png" type="Texture" id=12]
+[ext_resource path="res://images/mr prez.png" type="Texture" id=13]
+[ext_resource path="res://images/yang.png" type="Texture" id=14]
+[ext_resource path="res://images/sf3-2nd-impact-oro-stage.PNG" type="Texture" id=15]
+[ext_resource path="res://images/akuma2.png" type="Texture" id=16]
+[ext_resource path="res://images/sf3-2nd-impact-elena-stage.png" type="Texture" id=17]
+
+[node name="ImageAnalyzer" type="Node2D"]
+script = ExtResource( 1 )
+tex_array = [ ExtResource( 10 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 15 ), ExtResource( 14 ), ExtResource( 13 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 6 ) ]
+start = Vector2( 50, 240 )
+length = 500.0
+height = 150.0
+spacing = 40
+
+[node name="Control" type="Control" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+rect_min_size = Vector2( 1280, 720 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 30.0
+margin_right = -30.0
+margin_bottom = -30.0
+
+[node name="GraphsBoundary" type="Control" parent="Control/HBoxContainer"]
+unique_name_in_owner = true
+margin_right = 608.0
+margin_bottom = 660.0
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="Control/HBoxContainer"]
+unique_name_in_owner = true
+margin_left = 612.0
+margin_right = 1220.0
+margin_bottom = 660.0
+size_flags_horizontal = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="SpriteRonan" type="Sprite" parent="."]
+position = Vector2( 767, 493 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 5 )
