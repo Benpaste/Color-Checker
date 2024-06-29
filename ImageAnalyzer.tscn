@@ -1,12 +1,12 @@
 [gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://ImageAnalyzer.gd" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
-[ext_resource path="res://charlotta.png" type="Texture" id=3]
+[ext_resource path="res://images/icon.png" type="Texture" id=2]
+[ext_resource path="res://images/charlotta.png" type="Texture" id=3]
 [ext_resource path="res://images/mr prez3.png" type="Texture" id=4]
-[ext_resource path="res://ronan.png" type="Texture" id=5]
-[ext_resource path="res://samson.png" type="Texture" id=6]
-[ext_resource path="res://charlotta new.png" type="Texture" id=7]
+[ext_resource path="res://images/ronan.png" type="Texture" id=5]
+[ext_resource path="res://images/samson.png" type="Texture" id=6]
+[ext_resource path="res://images/charlotta new.png" type="Texture" id=7]
 [ext_resource path="res://images/makoto.png" type="Texture" id=10]
 [ext_resource path="res://images/dudleycrop.png" type="Texture" id=11]
 [ext_resource path="res://images/ryucrop.png" type="Texture" id=12]
@@ -53,6 +53,7 @@ texture = ExtResource( 2 )
 expand = true
 
 [node name="SpriteRonan" type="Sprite" parent="."]
+visible = false
 position = Vector2( 767, 493 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 5 )

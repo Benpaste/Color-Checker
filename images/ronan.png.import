@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/samson.png-fb815d6ad5f4198c38900b2693ad85f1.stex"
+path="res://.import/ronan.png-09065ea002e40827262126b330777bcf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://samson.png"
-dest_files=[ "res://.import/samson.png-fb815d6ad5f4198c38900b2693ad85f1.stex" ]
+source_file="res://images/ronan.png"
+dest_files=[ "res://.import/ronan.png-09065ea002e40827262126b330777bcf.stex" ]
 
 [params]
 

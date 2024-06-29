@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ronan.png-a4789a35d372fcb088a02aef3ae350a4.stex"
+path="res://.import/charlotta new.png-6b6f55ce4c15147e7fb94eceb6321917.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ronan.png"
-dest_files=[ "res://.import/ronan.png-a4789a35d372fcb088a02aef3ae350a4.stex" ]
+source_file="res://images/charlotta new.png"
+dest_files=[ "res://.import/charlotta new.png-6b6f55ce4c15147e7fb94eceb6321917.stex" ]
 
 [params]
 

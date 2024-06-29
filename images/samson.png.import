@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/charlotta.png-a5f41c73428c0d2d1ef87422d5833ba4.stex"
+path="res://.import/samson.png-005e1caa43d0df1b9a2ab5906775b84f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://charlotta.png"
-dest_files=[ "res://.import/charlotta.png-a5f41c73428c0d2d1ef87422d5833ba4.stex" ]
+source_file="res://images/samson.png"
+dest_files=[ "res://.import/samson.png-005e1caa43d0df1b9a2ab5906775b84f.stex" ]
 
 [params]
 
